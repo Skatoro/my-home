@@ -1,0 +1,606 @@
+body{
+    margin: 0;
+    font-family: 'Arial';
+    font-size: 14px;
+}
+.page{
+    max-width: 1400px;
+    min-width: 800px;
+    margin: 0 auto;
+    padding-top: 62px;
+}
+p{
+    color: #808183;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+h1{
+    font-family: 'Libre Baskerville';
+    text-transform:uppercase;
+    color: #cb9e61;
+    font-size: 67px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 ;
+}
+h2{
+    font-size: 36px;
+    color: #cb9e61;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+h3{
+    font-size: 21px;
+    color: #cb9e61;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+h4{
+    font-family: 'Libre Baskerville';
+    text-transform:uppercase;
+    color: #929496;
+    font-size: 21px;
+    text-align: center;
+    font-weight: normal;
+    margin: 0 0 26px 0;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.title{
+    margin-bottom: 35px;
+}
+.header-menu{
+    margin: 0 0 16px 0;
+    padding: 0 4.5% 0 6.7%;
+}
+.header-menu .options{
+    float: left;
+    list-style: none;
+    margin: 0 1% 0 0;
+    padding: 0;
+    width: 85%;
+}
+.header-menu .options li{
+    float: left;
+    margin-right: 2%;
+}
+.header-menu .options li:last-child{
+    margin-right: 0;
+}
+.header-menu .options a{
+    text-decoration: none;
+    color: #8c8c8c;
+    font-size: 24px;
+    text-transform:uppercase;
+}
+.header-menu .options a:hover{
+    text-decoration: underline;
+}
+.header-menu .search-bar{
+    width: 13%;
+    border: 2px solid #8c8c8c;
+    height: 24px;
+    padding: 5px 0.35%;
+    float:right;
+    margin: 2px 0 0 0;
+}
+.header-menu .search-bar:focus::placeholder{
+    color: transparent;
+}
+.example-photo{
+    padding: 0 3.4% 0 4.9%;
+    margin-bottom: 24px;
+}
+.example-photo p{    
+    color: #cb9e61;
+    font-size: 18px;
+    text-transform:uppercase;
+    margin-bottom: 8px;
+}
+.example-photo .img-holder{
+    position: relative;  
+      
+}
+.example-photo .coffee-stamp{
+    position: absolute;
+    background: url("./images_myHome/coffee-stamp-1.png") no-repeat;
+    background-size: cover;
+    width: 42.55%;
+    height: 62.8%;
+    right: -3.7%;
+    top: 68.65%;
+    z-index: -1;
+}
+.example-photo form{
+    position: absolute;
+    z-index: 50;
+    width: 18.5%;
+    top: 82%;
+    right: 2.26%;
+}
+.example-photo .input-field{
+    width: 100%;
+    font-size: 12px;
+    border: 2px solid #8b8b8b;
+    padding: 3px 0 3px 0.78%;
+    margin-bottom: 8px;
+}
+.example-photo .submit-button{
+    width: 100%;
+    text-transform:uppercase;
+    background-color: #cb9e61;
+    padding: 1px 0;
+    color: #fff;
+    text-align: center;
+    font-size: 19px;
+    border: none;
+    cursor: pointer;
+}
+.tips-collage{
+    margin-bottom: 85px;
+}
+.tips-collage h2{
+    margin-bottom: 59px;
+}
+.tips-collage > ul{
+    width: 56.4%;
+    margin: 0 auto 24px auto;
+    list-style: none;
+    padding: 0;
+}
+.tips-collage > ul > li{
+    margin-bottom: 29px;
+}
+.tips-collage > ul > li:last-child{
+    margin-bottom: 0;
+}
+.tips-collage > ul > li > ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.tips-collage > ul > li > ul > li{
+    margin-right: 6.32%;
+    width: 29.1%;
+    float: left;
+}
+.tips-collage > ul > li > ul > li:last-child{
+    margin-right: 0;
+}
+.tips-collage p{
+    font-size: 14px;
+    margin: 0 auto;
+    width: 45.4%;
+}
+.renew-home{
+    padding: 0 6.4%;
+    margin-bottom: 65px;
+}
+.renew-home .wrapper{
+
+}
+.renew-home .wrapper .left-column{
+    width: 62.8%;
+    float: left;
+    margin-right: 4.47%;
+}
+.renew-home .wrapper .left-column .img-holder{
+    float: left;
+    position: relative;
+}
+.renew-home .wrapper .left-column .img-overlay{
+    position: absolute;
+    background: url("./images_myHome/renew-photo-overlay.png") no-repeat;
+    background-size: cover;
+    width: 49.7%;
+    height: 54%;
+    left: 54.6%;
+    top: 63.4%;
+    z-index: 2;
+}
+.renew-home .wrapper .right-column{
+    float: right;
+    width: 32.73%;
+    padding-top: 1.6%;
+}
+.renew-home .wrapper .right-column h3{
+    font-size: 197.36%;
+    color: #cb9e61;
+    text-align: center;
+    font-weight: normal;
+    text-transform: none;
+    margin: 0;
+    text-align: left;
+    padding: 0;
+}
+.renew-home .wrapper .right-column h3.orange{
+    color: #cb9e61;
+    margin-bottom: 7.8%;
+    line-height: 38px;
+}
+.renew-home .wrapper .right-column h3.gray{
+    color: #808183;
+    margin-bottom: 5.964%;
+}
+.renew-home .wrapper .right-column a{
+    background-color: #cb9e61;
+    font-size: 100%;
+    color: #fff;
+    width: 65%;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 3px 15px;
+    margin-left: 1.1%;
+    margin-bottom: 19%;
+}
+.renew-home .wrapper .right-column img{
+    margin-left: 1.1%;
+    margin-bottom: 5%;
+}
+.news{
+    position: relative;
+    margin-right: 4.27%;
+}
+.news .wrapper{
+    margin-bottom: 110px;
+}
+.news .wrapper .coffee-stamp{
+    position: absolute;
+    background: url("./images_myHome/coffee-stamp-2.png") no-repeat;
+    background-size: cover;
+    width: 53.1%;
+    height: 91.8%;
+    top: 4.482%;
+    left: 0;
+    z-index: -1;
+}
+.news .wrapper .photo{
+    float: right;
+    width: 32.9%;
+}
+.news .wrapper .description{
+    float: right;
+    margin-right: 4.57%;
+    width: 38%;
+    margin-top: 12%;
+}
+.news .wrapper .description h3{  
+    font-size: 197.36%;
+    color: #cb9e61;
+    font-weight: normal;
+    text-transform: none;
+    margin: 0;
+    text-align: right;
+    padding: 0;
+}
+.news .wrapper .description h3.orange{
+    color: #cb9e61;
+    margin-bottom: 0.34%;
+    line-height: 38px;
+}
+.news .wrapper .description h3.gray{
+    color: #808183;
+    margin-bottom: 8.24%;
+}
+.news .wrapper .description .input-field{
+    width: 65.25%;
+    font-size: 19px;
+    border: 2px solid #8b8b8b;
+    padding: 0.6% 0 0.6% 0.78%;
+    float: right;
+    margin-bottom: 1.65%;
+}
+.news .wrapper .description .submit-button{
+    text-transform:uppercase;
+    background-color: #cb9e61;
+    padding: 0.6% 0;
+    color: #fff;
+    text-align: center;
+    font-size: 19px;
+    border: none;
+    width: 65.25%;
+    cursor: pointer;
+    margin-left: auto;
+    float: right;
+}
+.news .wrapper .description p{
+    padding-left: 12%;
+    padding-right: 2%;
+    margin: 0 auto;
+    font-size: 14px;
+    float: right;
+    width: 62.32%;
+}
+.new-season{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.new-season h2{
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.new-season .first-block{
+    position: relative;
+    margin-bottom: 185px;
+}
+.new-season .first-block .background{
+    position: absolute;
+    background: url("./images_myHome/newSeason-firstBlock-background.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 89.5%;
+    left: 0%;
+    top: 5.95%;
+    z-index: -1;
+}
+.new-season .first-block .content{
+    margin: 0 auto;
+    width: 82.8%;
+}
+.new-season .first-block .content .first-column{
+    width: 34.3%;
+    padding-top: 30%;
+    margin-right: 0.6%;
+    float: left;
+}
+.new-season .first-block .content .first-column .decor{
+    width: 47.1%;
+    background-color: #e0c39c;
+    height: 20px;
+    float: right;
+    margin-bottom: 7px;
+}
+.new-season .first-block .content .caption{
+    background-color: #8c8c8c;
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    padding: 9px 0;
+}
+.new-season .first-block .second-column{
+    margin-right: 0.6%;
+    width: 44.7%;
+    float: left;
+}
+.new-season .first-block .second-column .caption{    
+    margin-bottom: 25px;
+}
+.new-season .first-block .second-column h3{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 1.9%;
+}
+.new-season .first-block .third-column{
+    width: 19.8%;
+    float: left;
+}
+.new-season .second-block{
+    padding: 0 3.57%;
+    margin-bottom: 40px;
+}
+.new-season .second-block .description{
+    float: left;
+    width: 25.55%;
+    margin-right: 2.15%;
+    margin-top: 6.18%;
+}
+.new-season .second-block .description h3{
+    font-size: 35px;
+    text-align: right;
+
+}
+.new-season .second-block .description h3.orange{
+    color: #cb9e61;
+    margin-bottom: 5.61%;
+}
+.new-season .second-block .description h3.gray{
+    color: #808183;
+    margin-bottom: 10.5%;
+}
+.new-season .second-block .description img{
+    float: right;
+    width: 81.4%;
+}
+.new-season .second-block .photo{
+    float: left;
+    width: 72.3%;
+}
+.signup{
+    padding: 0 3.57%;
+    margin-bottom: 100px;
+}   
+.signup .background{
+    position: relative;
+    width: 100%;
+    padding-top: 3.95%;
+    padding-bottom: 14.2%;
+    background: #000 url("./images_myHome/signup-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.signup .background > p{
+    color: #cb9e61;
+    font-size: 36px;
+    text-align: center;    
+    margin: 0 auto 14.2% auto;
+    width: 600px;
+}
+.signup .form-wrapper{
+    background-color: rgba(243, 243, 243, 0.81);
+    width: 42.3%;
+    margin: 0 auto;
+    padding: 3.84% 0;
+} 
+.signup .form-wrapper p{
+    font-size: 16px;
+    width: 83.6%;
+    margin: 0 auto;
+} 
+.signup .form-content{
+    width: 81.8%;
+    margin: 0 auto;
+}
+.signup .form-content .input-field{
+    opacity: 1;
+    width: 100%;
+    color: #808183;
+    border: 1px solid #808183;
+    margin-bottom: 10px;
+    padding: 9px 2.9%;
+    background-color: #fff;
+}
+.signup .form-content .signup-button{
+    cursor: pointer;
+    border: 1px solid #cb9e61;
+    width: 100%;
+    color: #fff;
+    background-color: #cb9e61;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    padding: 2px 0 3px 0;
+    margin: 0;
+}   
+.signup .background .underlay{
+    position: absolute;
+    right: 1.15%;
+    top: 88.6%;
+    height: 188px;
+    width: 481px;
+    background: url("./images_myHome/signup-underlay.png") no-repeat;
+    z-index: -1;
+}
+.discounts{
+    padding-left: 6.21%;
+    margin-bottom: 56px;
+}
+.discounts .img-holder{
+    position: relative;
+
+}
+.discounts .discount-background{
+    position: absolute;
+    z-index: -10;
+    width: 54.61%;
+    background: url("./images_myHome/coffee-stamp-3.png") no-repeat;
+    height: 93.6%;
+    top: -7.85%;
+    left: 45.4%;
+    
+    background-size: cover;
+}
+.discounts .discount-description{
+    position: absolute;
+    z-index: -2;
+    width: 35.8%;
+    background: url("./images_myHome/discount-description.png") no-repeat;
+    height: 19.43%;
+    top: 76.11%;
+    left: 59.6%;
+    
+    background-size: cover;
+}
+.footer{
+    padding: 0 4.28%;
+}
+.footer .wrapper{
+    padding: 105px 4.68% 40px 4.68%;
+    background-color: #999999;
+    margin-bottom: 65px
+}
+.footer .wrapper .first-column{
+    float: left;
+    width: 19.4%;
+    font-size: 16px;
+    text-align: right;
+    text-transform: uppercase;
+    margin-right: 11%;
+    margin-bottom: 30px;
+}
+.footer .wrapper .first-column ul{
+    padding: 0;
+    list-style: none;
+    margin-bottom: 36px;
+    margin-top: 0;
+}
+.footer .wrapper .first-column ul li{
+    margin-bottom: 8px;
+}
+.footer .wrapper .first-column a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer .wrapper .first-column a:hover{
+    text-decoration: underline;
+}
+.footer .wrapper .second-column{
+    float: left;
+    width: 33%;
+    margin-right: 5.95%;
+    padding-top: 8px;
+    margin-bottom: 30px;
+}
+.footer .wrapper .second-column h3{
+    margin-left: 2.28%;
+    color: #fff;
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.footer .wrapper .second-column .footer-form .input-field{
+    width: 82.2%;
+    border: 2px solid #8b8b8b;
+    margin-bottom: 6px;
+    padding: 4px 0;
+}
+.footer .wrapper .second-column .footer-form .signup-button{
+    width: 82.2%;
+    text-transform: uppercase;
+    background-color: #cb9e61;
+    color: #fff;
+    border: 2px solid #cb9e61;
+    margin-bottom: 4px;
+    padding: 2.5px 0;
+}
+.footer .wrapper .second-column p{
+    width: 82.2%;
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 20px 
+}
+.footer .wrapper .third-column{
+    float: left;
+    text-align: left;
+    width: 30.65%;
+    padding-top: 33px;
+    margin-bottom: 30px;
+}
+.footer .wrapper .third-column h4{
+    font-size: 16px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 0;
+}
+.footer .wrapper .third-column .logo-text{    
+    font-family: 'Libre Baskerville';
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 57px;
+    font-weight: normal;
+    margin-bottom: 38px ;
+}
